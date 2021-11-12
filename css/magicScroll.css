@@ -1,0 +1,15 @@
+/* Hide Scroll bar through Magic */
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0 !important;
+    background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}

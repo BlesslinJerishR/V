@@ -1,0 +1,40 @@
+/* Poppins Gfonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html,
+body {
+    background-color: #1d1e21;
+    color: #FFF !important;
+    overflow-x: hidden !important;
+    position: relative;
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+img {
+    border-radius: 20px;
+}
+
+.twox img {
+    display: inline;
+    height: 320px;
+    width: 45.3%;
+    padding: 10px;
+    padding-right: 8px;
+    left: 4.5%;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+}
+
+.threex img {
+    display: inline;
+    height: 320px;
+    width: 30%;
+    padding: 10px;
+    padding-right: 4px;
+    left: 4.5%;
+    position: relative;
+}

@@ -23,6 +23,7 @@ img {
     padding-right: 8px;
     left: 4.5%;
     position: relative;
+    object-fit: cover;
 }
 
 h1 {
@@ -37,18 +38,23 @@ h1 {
     padding-right: 4px;
     left: 4.3%;
     position: relative;
+    object-fit: cover;
 }
 
 /* Mobile Screen Media Queries */
 
 @media (max-width:480px) {
     .twox img {
-        height: 250px;
-        width: 35.3%;
+        height: 280px !important;
+        width: 45.3% !important;
     }
 
     .threex img {
-        height: 250px;
-        width: 15%;
+        height: 280px !important;
+        width: 30% !important;
+    }
+
+    hr {
+        left: 2% !important;
     }
 }
